@@ -1,0 +1,45 @@
+.hide {
+	display: none;
+}
+.wrap {
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+h3 {
+	background-color: tomato;
+	height: 40px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+button {
+	height: 40px;
+	width: 100px;
+	background-color: mediumslateblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+span {
+	background-color: black;
+	height: 40px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	color: white;
+	border-bottom: 20px;
+}
